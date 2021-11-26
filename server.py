@@ -25,4 +25,3 @@ api.add_namespace(usuarios, path="/usuarios")
 # db.create_all()
 
 migrate = Migrate(app, db)
-

@@ -10,9 +10,7 @@ CORS(app)
 api = Api(app)
 
 
-app.config[
-    "SQLALCHEMY_DATABASE_URI"
-] = "mysql+pymysql://david:david1995@localhost:3306/obras"
+app.config[    "SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://david:david1995@localhost:3306/obras"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 
 db = SQLAlchemy(app)
